@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_red_white">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="High Score"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/background_gradient"
+        android:textColor="@color/white"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview_in_high_score"
+        />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Be the First one to Make your place here"
+            android:textSize="30sp"
+            android:textColor="#303030"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:visibility="gone"
+            android:id="@+id/high_score_0_text"
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:layout_marginBottom="20dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play_now"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:elevation="1dp"
+            android:id="@+id/high_score_0_button"
+            android:background="@drawable/main_button_gradient"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            />
+    </FrameLayout>
+
+
+</LinearLayout>

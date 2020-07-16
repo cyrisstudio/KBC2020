@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/you_won_celebration"
+    android:padding="20dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!!!"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_won"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/green"
+        android:textStyle="bold|italic"
+        android:textSize="50sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:shadowColor="@color/white"
+            android:textColor="@color/black"
+            android:outlineAmbientShadowColor="@color/white"
+            android:outlineSpotShadowColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_gravity="center"
+            android:textColorHighlight="@color/white"
+            android:textColorLink="@color/white"
+            android:background="@color/white"
+            android:imeActionLabel="done"
+            android:imeActionId="6"
+            android:id="@+id/name_on_cheque_wrong_ans_in_you_won"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/correct_answer_button"
+        android:layout_gravity="center"
+        android:text="Main Menu"
+        android:id="@+id/main_menu_in_you_won"
+        android:textAllCaps="false"
+        android:textStyle="bold"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_weight="1"
+            android:id="@+id/okButtonInYouWon"
+            android:background="@drawable/correct_answer_button"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

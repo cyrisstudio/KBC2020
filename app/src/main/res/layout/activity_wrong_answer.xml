@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/background_gradient"
+    android:layout_gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answer!!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/red"
+        android:id="@+id/oops_in_wrong_answer"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cash_prize_won"
+        android:textColor="@color/green"
+        android:id="@+id/cash_prize_won"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/wrongAns"
+        android:id="@+id/text_wrong_answer"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:shadowColor="@color/white"
+        android:textColor="@color/black"
+        android:outlineAmbientShadowColor="@color/white"
+        android:outlineSpotShadowColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_gravity="center"
+        android:textColorHighlight="@color/white"
+        android:textColorLink="@color/white"
+        android:background="@color/white"
+        android:imeActionLabel="done"
+        android:imeActionId="6"
+        android:id="@+id/name_on_cheque_wrong_ans"
+
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <Button
+        android:id="@+id/exit_from_wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textColor="@color/white"
+        android:background="@drawable/wrong_answer_button"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:textAllCaps="false"
+         />
+        <Button
+        android:id="@+id/watch_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="watch_ad"
+            android:layout_weight="1"
+            android:visibility="gone"
+        android:textColor="@color/white"
+        android:background="@drawable/correct_answer_button"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+         />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:layout_weight="1"
+            android:id="@+id/okButtonInWrongAnswer"
+            android:background="@drawable/correct_answer_button"
+            />
+    </LinearLayout>
+
+</LinearLayout>

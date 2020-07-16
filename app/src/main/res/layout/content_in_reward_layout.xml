@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_of_reward_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/data_for_recyclerView"
+        android:text="hello"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif-light"
+       android:textStyle="bold"
+        android:textColor="@color/white"
+        />
+    </LinearLayout>
+
+</LinearLayout>

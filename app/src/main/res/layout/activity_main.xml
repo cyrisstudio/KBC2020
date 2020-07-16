@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_gradient"
+        >
+
+
+    <Button
+        android:id="@+id/main_play_button"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:background="@drawable/main_button_gradient"
+        android:onClick="PlayNow"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/play_now"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/language_selection"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@drawable/main_button_gradient"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/language_english_button"
+        android:tag="@string/language_english_button"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:onClick="LanguangeSeletion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/exit_from_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wrong_answer_button"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/exitMain"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.844"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <Button
+        android:id="@+id/high_score"
+        android:layout_width="190dp"
+        android:layout_height="50dp"
+        android:background="@drawable/main_button_gradient"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/highScore"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.880"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <RelativeLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="600dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/rotateCircle"
+            android:layout_width="574dp"
+            android:layout_height="364dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/gold_circle"
+            />
+
+        <ImageView
+            android:id="@+id/rotateCircle1"
+            android:layout_width="574dp"
+            android:layout_height="364dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/gold_circle" />
+
+        <ImageView
+            android:id="@+id/kbcLogo"
+            android:layout_width="379dp"
+            android:layout_height="263dp"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="107dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="62dp"
+            android:src="@drawable/kbc2020_min" />
+
+
+
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/rate_us"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="3dp"
+        android:background="@drawable/main_button_gradient"
+        android:src="@drawable/rate_us"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"            app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.05"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:padding="6dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="144dp"
+        android:background="@drawable/main_button_gradient"
+        android:src="@drawable/share"
+        android:id="@+id/share"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        />
+
+    <ImageView
+        android:id="@+id/volume"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/main_button_gradient"
+        android:src="@drawable/volume_on"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background_red_white"
+        android:id="@+id/no_internet_connection"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:padding="30dp"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No Internet Connection"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wrongAns"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:textColor="@color/red"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok"
+            android:layout_gravity="center"
+            android:id="@+id/ok_no_internet_button"
+            android:background="@drawable/correct_answer_button"
+            />
+
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

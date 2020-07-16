@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home_top_score"
+        android:title="Top Score"
+        android:icon="@drawable/high_score"
+        />
+    <item android:id="@+id/weekly_top"
+        android:title="Weekly Top"
+        android:icon="@drawable/weekly"
+        />
+    <item android:id="@+id/daily_top"
+        android:title="Daily Top"
+        android:icon="@drawable/daily"
+        />
+
+
+
+</menu>

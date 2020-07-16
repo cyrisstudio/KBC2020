@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/top_score_parent_view"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="0.01"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="count"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/count_high_score_holder"
+        />
+
+        <TextView
+        android:layout_width="250dp"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/highScore"
+        android:textSize="20sp"
+            android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/high_score_view_holder"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/highScore"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:id="@+id/high_score_view_holder_cash"
+        />
+    </LinearLayout>
+
+</LinearLayout>
