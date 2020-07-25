@@ -19,7 +19,7 @@
     <string name="soundOff">SoundOff</string>
     <string name="soundOffText">Sound:Off</string>
     <string name="highScore">High Score</string>
-    <string name="accuracy60">Accuracy of this answer is 60% Watch Ad for 100% accurate \n click on Telephone logo</string>
+    <string name="accuracy60"></string>
     <string name="accuracy100">Now this is your correct answer</string>
     <string name="wrongAns">Stay connected to internet to make your record worldwide</string>
     <string name="wrongAnsAd">Watch Ad to get one More chance</string>
@@ -28,20 +28,20 @@
 
     <string name="loadigWait">Please Wait while Loading</string>
 
-    <string name="testInterestial">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="languageInterestial">ca-app-pub-9531546526616195/5194150307</string>
-    <string name="soundInterestial">ca-app-pub-9531546526616195/1254905291</string>
-    <string name="exitInterestial">ca-app-pub-9531546526616195/9133395314</string>
-    <string name="onLostInterestial">ca-app-pub-9531546526616195/1327079566</string>
-    <string name="phoneOfFriendRewarded">ca-app-pub-9531546526616195/4803642766</string>
-    <string name="playAgain">ca-app-pub-9531546526616195/1459348020</string>
+    <string name="testInterestial"></string>
+    <string name="languageInterestial"></string>
+    <string name="soundInterestial"></string>
+    <string name="exitInterestial"></string>
+    <string name="onLostInterestial"></string>
+    <string name="phoneOfFriendRewarded"></string>
+    <string name="playAgain"></string>
 
 
-    <string name="exitInterstitialFacebook">213237363119671_213263143117093</string>
-    <string name="languageInterstitialFacebook">213237363119671_213263586450382</string>
-    <string name="soundInterstitialFacebook">213237363119671_213264453116962</string>
-    <string name="playAgainRewardedFacebook">213237363119671_214260839683990</string>
-    <string name="onLostInterstitialFacebook">213237363119671_213241556452585</string>
+    <string name="exitInterstitialFacebook"></string>
+    <string name="languageInterstitialFacebook"></string>
+    <string name="soundInterstitialFacebook"></string>
+    <string name="playAgainRewardedFacebook"></string>
+    <string name="onLostInterstitialFacebook"></string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
